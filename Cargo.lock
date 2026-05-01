@@ -2870,6 +2870,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "jp_bench"
+version = "0.1.0"
+dependencies = [
+ "iced",
+ "iced_futures",
+ "iced_wgpu",
+ "iced_winit",
+]
+
+[[package]]
 name = "js-sys"
 version = "0.3.85"
 source = "registry+https://github.com/rust-lang/crates.io-index"
